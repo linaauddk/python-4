@@ -77,3 +77,18 @@ for num in range(0,10):   <------ (start. stop) start에서  stop -1
 7
 8
 9
+
+sum = 0
+for num in range(1,11):
+    sum = sum + num
+print(sum)
+55
+
+for num in range(0,10,2):  <--- start, stop, step   start에서 stop-1까지 step 간격으로
+    print(num)
+0
+2
+4
+6
+8 
+    
