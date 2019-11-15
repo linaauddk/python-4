@@ -92,3 +92,89 @@ for num in range(0,10,2):  <--- start, stop, step   start에서 stop-1까지 ste
 6
 8 
     
+i=0
+while i < 10:
+      i=i+1
+      if i == 5:
+        print("if 문을 통해 break.")
+        break
+      print(i)
+1
+2
+3
+4
+if 문을 통해 break.
+
+i=0
+while i < 10:
+      i=i+1
+      if i == 5:
+        print("if 문을 통해 contiue.")
+        continue
+      print(i)
+1
+2
+3
+4
+if 문을 통해 contiue.
+6
+7
+8
+9
+10
+
+i = 0
+while i < 10:
+    print(i)
+    i=i+1
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+i=1
+while i < 10:
+    print("5*%d = %d" %(i, 5 * i))
+    i=i+1
+5*1 = 5
+5*2 = 10
+5*3 = 15
+5*4 = 20
+5*5 = 25
+5*6 = 30
+5*7 = 35
+5*8 = 40
+5*9 = 45
+
+import turtle
+
+
+
+t=turtle.Pen()
+
+for i in range(5):
+    t.forward(50)
+    t.right(144)
+파일이름 turtle xx
+
+def 함수이름 (매개변수1, 매개변수2): 외부로부터 함숫값 받음, 없어도 상관 없엄
+실행할 문장
+실행할 문장
+
+def greeting(name, age):
+    print("만나서 반가워")
+    print("난 %s이야"%name)
+    print("난 %d살이야"%age)
+    print("친하게 지내자")
+    
+   >>> greeting("규정",26)
+만나서 반가워
+난 규정이야
+난 26살이야
+친하게 지내자
